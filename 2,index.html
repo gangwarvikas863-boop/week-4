@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <!--NAME-->
+        <label for="name">NAME:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <br>
+        <!--email-->
+        <label for="email">EMAIL:
+        </label>
+        <input type="email" id="email" name="email"requird>
+        <br>
+        <br>
+        <!--password-->
+        <label for="password">PASSWORD:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <br>
+        <!--confirm password-->
+        <label for="confirm password">CONFIRM PASSWORD:</label>
+        <input type="password" id="confirm password" name="confirm password" required>
+        <br>
+        <br>
+        <!--phone number->
+        <label for="phone">PHONE NUMBER:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <br>
+        <br>
+        <!--date of birth-->
+        <label for="DOB">DATE OF BIRTH:</label>
+        <input type="date" id="DOB" name="DOB" required>
+        <br>
+        <br>
+        <!--radio-->
+        <label for="gender">GENDER:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="others" name="gender" value="others" required>
+        <label for="others">OTHERS</label>\
+        <br>
+        <br>
+        <!--textarea-->
+        <label for="address">ADDRESS:</label>
+        <textarea id="address" name="address" required></textarea>
+        <!--checkbox-->
+        <label>HOBBIES:</label>
+        <input type="checkbox" id="reading" name="hobbies" value="reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="sports" name="hobbies" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="hobbies" value="music">
+        <label for="music">Music</label>
+        <br>
+        <br>
+        <!--dropdown-->
+        <label for="city">CITY:</label>
+        <select id="city" name="city" required>
+            <option value="">Select a city</option>
+            <option value="newyork">NEW YORK</option>
+            <option value="losangeles">LOS ANGELES</option>
+            <option value="chicago">CHICAGO</option>
+        </select>
+        <br>
+        <br>
+        <!--message box-->
+        <label for="message">MESSAGE:</label>
+        <textarea id="message" name="message" required></textarea>
+        <br>
+        <br>
+        <input type="submit" value="submit">
+        </form>
+</body>
+</html>
